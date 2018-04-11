@@ -1,0 +1,28 @@
+
+<ProductsList title="Products">
+{{#each $products as product }}
+  <ProductItem :product on:addToCart='store.addToCart(product.id)' />
+{{/each}}
+</ProductsList>
+
+<script>
+  import { addToCart } from '../actions'
+  import { getVisibleProducts } from '../reducers/products'
+  import ProductItem from '../components/ProductItem.html'
+  import ProductsList from '../components/ProductsList.html'
+  import { connect } from '../store';
+
+  const mapStateToData = state => ({
+    products: getVisibleProducts(state.products)
+  })
+
+  const mapDispatchToStore = { addToCart }
+
+  export default {
+    store: connect(mapStateToData, mapDispatchToStore),
+    components: { ProductItem, ProductsList },
+    methods: {
+
+    },
+  }
+</script>

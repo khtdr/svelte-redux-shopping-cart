@@ -1,0 +1,32 @@
+<style>
+div {
+  font-family:sans-serif;
+  color:#333;
+  background-color:white;
+  padding:20px;
+  margin:0 auto;
+  max-width:600px;
+}
+hr {
+  margin:20px 0;
+  border:none;
+  height:1px;
+  background-color:gray;
+}
+</style>
+
+<div>
+  <h2>Shopping Cart Example</h2>
+  <hr/>
+  <ProductsContainer />
+  <hr/>
+  <CartContainer />
+</div>
+
+<script>
+  import CartContainer from './CartContainer.html'
+  import ProductsContainer from './ProductsContainer.html'
+  export default {
+    components: { CartContainer, ProductsContainer }
+  }
+</script>

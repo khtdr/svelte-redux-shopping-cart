@@ -1,0 +1,34 @@
+<style>
+  div > :global(*):first-child {
+    display:inline-block;
+    border-bottom:dashed 1px whitesmoke;
+    margin-bottom:10px;
+    padding-bottom:10px;
+  }
+  div > button {
+    display:block;
+    width:100px;
+    text-align:center;
+
+  }
+</style>
+
+<div>
+  <Product
+    title='{{product.title}}'
+    price='{{product.price}}'
+    quantity='{{product.inventory}}'
+  />
+  <button
+    on:click='fire("addToCart")'
+    disabled='{{product.inventory > 0 ? "" : "disabled"}}'>
+    {{product.inventory > 0 ? 'Add to cart' : 'Sold Out'}}
+  </button>
+</div>
+
+<script>
+  import Product from './Product.html'
+  export default {
+    components: { Product },
+  }
+</script>

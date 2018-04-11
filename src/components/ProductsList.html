@@ -1,0 +1,18 @@
+<style>
+h3 + div > :global(*) {
+  border-bottom:solid 1px silver;
+  margin-bottom:20px;
+  padding-bottom:20px;
+}
+h3 + div > :global(*):last-child {
+  border-bottom:none;
+}
+</style>
+
+<div>
+  <h3>{{title}}</h3>
+  <div>
+    <slot>{children}</slot>
+  </div>
+</div>
+

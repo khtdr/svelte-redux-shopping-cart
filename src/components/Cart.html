@@ -1,0 +1,31 @@
+<div>
+  <h3>Your Cart</h3>
+  <div>
+  {{#if hasProducts}}
+    {{#each products as product}}
+    <Product
+      title={{product.title}}
+      price={{product.price}}
+      quantity={{product.quantity}}
+    />
+    {{/each}}
+  {{else}}
+    <em>Please add some products to cart.</em>
+  {{/if}}
+  </div>
+
+  <p>Total: &#36;{{total}}</p>
+  <button on:click='fire("checkout")' disabled={{hasProducts ? '' : 'disabled'}}>
+    Checkout
+  </button>
+</div>
+
+<script>
+  import Product from './Product.html'
+  export default {
+    components: { Product },
+    computed: {
+      hasProducts: products => !!products.length,
+    },
+  }
+</script>

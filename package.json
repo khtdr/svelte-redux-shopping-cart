@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "decompose",
+  "version": "0.0.1",
+  "devDependencies": {
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.11",
+    "mini-css-extract-plugin": "^0.4.0",
+    "serve": "^6.5.3",
+    "svelte": "^1.59.0",
+    "svelte-loader": "2.5.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-serve": "^0.3.1"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "dev": "webpack-serve --content public --hot"
+  },
+  "dependencies": {
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "svelte-redux": "^1.1.1"
+  }
+}

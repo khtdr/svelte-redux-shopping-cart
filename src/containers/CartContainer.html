@@ -1,0 +1,21 @@
+
+<Cart products={{$products}} total={{$total}} on:checkout='store.checkout()' />
+
+<script>
+  import { checkout } from '../actions'
+  import { getTotal, getCartProducts } from '../reducers'
+  import Cart from '../components/Cart.html'
+  import { connect } from '../store';
+
+  const mapStateToData = state => ({
+    products: getCartProducts(state),
+    total: getTotal(state),
+  })
+
+  const mapDispatchToStore = { checkout }
+
+  export default {
+    store: connect(mapStateToData, mapDispatchToStore),
+    components: { Cart }
+  }
+</script>
