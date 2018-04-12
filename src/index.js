@@ -1,4 +1,4 @@
-import App from './containers/App.html';
+import App from './layouts/App.html';
 const app = new App({
   target: document.body,
 });

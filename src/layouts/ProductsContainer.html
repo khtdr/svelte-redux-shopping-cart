@@ -6,11 +6,11 @@
 </ProductsList>
 
 <script>
-  import { addToCart } from '../actions'
-  import { getVisibleProducts } from '../reducers/products'
+  import { addToCart } from '../redux/actions'
+  import { getVisibleProducts } from '../redux/reducers/products'
+  import { connect } from '../redux/store';
   import ProductItem from '../components/ProductItem.html'
   import ProductsList from '../components/ProductsList.html'
-  import { connect } from '../store';
 
   const mapStateToData = state => ({
     products: getVisibleProducts(state.products)
@@ -21,8 +21,5 @@
   export default {
     store: connect(mapStateToData, mapDispatchToStore),
     components: { ProductItem, ProductsList },
-    methods: {
-
-    },
   }
 </script>

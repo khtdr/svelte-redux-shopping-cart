@@ -2,10 +2,10 @@
 <Cart products={{$products}} total={{$total}} on:checkout='store.checkout()' />
 
 <script>
-  import { checkout } from '../actions'
-  import { getTotal, getCartProducts } from '../reducers'
+  import { checkout } from '../redux/actions'
+  import { getTotal, getCartProducts } from '../redux/reducers'
   import Cart from '../components/Cart.html'
-  import { connect } from '../store';
+  import { connect } from '../redux/store';
 
   const mapStateToData = state => ({
     products: getCartProducts(state),
