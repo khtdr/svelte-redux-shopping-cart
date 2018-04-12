@@ -18,3 +18,6 @@ cd ./svelte-redux-shopping-cart
 yarn
 yarn run dev
 ```
+
+**ScreenShot**
+![App Screenshot](https://raw.githubusercontent.com/khtdr/svelte-redux-shopping-cart/master/sreenshot.png)
