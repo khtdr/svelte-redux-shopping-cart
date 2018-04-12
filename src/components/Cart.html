@@ -1,4 +1,27 @@
-<div>
+<style>
+  section {
+    background-color:#c2d6ff;
+    padding:20px 40px;
+  }
+  h3 {
+    margin:0 0 10px 0;
+    border-bottom:solid 1px rgba(0,0,0,0.2);
+  }
+  button {
+    border:none;
+    background-color:#359;
+    color:white;
+    border-radius:2px;
+    box-shadow:0 2px 3px rgba(0,0,0,0.1);
+    padding:10px;
+  }
+  button:disabled {
+    background-color:#79c;
+    color:#c2d6ff;
+  }
+</style>
+
+<section>
   <h3>Your Cart</h3>
   <div>
   {{#if hasProducts}}
@@ -7,6 +30,7 @@
       title={{product.title}}
       price={{product.price}}
       quantity={{product.quantity}}
+      location='cart'
     />
     {{/each}}
   {{else}}
@@ -18,7 +42,7 @@
   <button on:click='fire("checkout")' disabled={{hasProducts ? '' : 'disabled'}}>
     Checkout
   </button>
-</div>
+</section>
 
 <script>
   import Product from './Product.html'

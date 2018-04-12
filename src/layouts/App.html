@@ -1,4 +1,7 @@
 <style>
+  :global(body) {
+    background-color:#334;
+  }
   div {
     font-family:sans-serif;
     color:#333;
@@ -6,20 +9,24 @@
     padding:20px;
     margin:0 auto;
     max-width:600px;
+    border-radius:3px;
   }
-  hr {
-    margin:20px 0;
-    border:none;
-    height:1px;
-    background-color:gray;
+  h1 {
+    color:#336;
+    text-shadow:1px 1px 3px silver;
+    margin:0;
+  }
+  h1 + em {
+    display:block;
+    color:#789;
   }
 </style>
 
 <div>
-  <h2>Shopping Cart Example</h2>
-  <hr/>
+  <h1>Shopping Cart Example</h1>
+  <em>Powered by Svelte+Redux</em>
+  <br />
   <ProductsContainer />
-  <hr/>
   <CartContainer />
 </div>
 

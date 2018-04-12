@@ -1,5 +1,5 @@
 
-<ProductsList title="Products">
+<ProductsList title="Product Inventory">
 {{#each $products as product }}
   <ProductItem :product on:addToCart='store.addToCart(product.id)' />
 {{/each}}

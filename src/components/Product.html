@@ -1,5 +1,14 @@
+<style>
+  div {
+    font-size:13px;
+  }
+  strong {
+    font-size:15px;
+    display:block;
+  }
+</style>
+
 <div>
   <strong>{{title}}</strong>
-  <br />
-  &#36;{{price}}{{quantity ? ` x ${quantity} in stock` : ''}}
+  &#36;{{price}}{{quantity ? ` x ${quantity} in ${location}` : ''}}
 </div>

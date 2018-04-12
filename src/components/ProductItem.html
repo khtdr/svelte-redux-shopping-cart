@@ -1,15 +1,18 @@
 <style>
-  div > :global(*):first-child {
-    display:inline-block;
-    border-bottom:dashed 1px whitesmoke;
-    margin-bottom:10px;
-    padding-bottom:10px;
+  div {
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
   }
-  div > button {
-    display:block;
-    width:100px;
-    text-align:center;
-
+  div:hover {
+    background-color:beige;
+  }
+  button {
+    border:none;
+    background-color:#359;
+    color:white;
+    border-radius:2px;
+    box-shadow:0 2px 3px rgba(0,0,0,0.1);
   }
 </style>
 
@@ -18,6 +21,7 @@
     title='{{product.title}}'
     price='{{product.price}}'
     quantity='{{product.inventory}}'
+    location='stock'
   />
   <button
     on:click='fire("addToCart")'

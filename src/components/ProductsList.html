@@ -1,12 +1,17 @@
 <style>
-h3 + div > :global(*) {
-  border-bottom:solid 1px silver;
-  margin-bottom:20px;
-  padding-bottom:20px;
-}
-h3 + div > :global(*):last-child {
-  border-bottom:none;
-}
+  h3 {
+    background-color:#E5E4E2;
+    padding:3px 10px;
+    border-radius:2px;
+    margin:0;
+  }
+  h3 + div > :global(*) {
+    border-bottom:solid 1px silver;
+    padding:20px 10px;
+  }
+  h3 + div > :global(*):last-child {
+    border-bottom:none;
+  }
 </style>
 
 <div>
