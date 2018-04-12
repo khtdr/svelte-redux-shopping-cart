@@ -3,7 +3,7 @@ This is a port of the [Redux Shopping Cart](https://github.com/reactjs/redux/tre
 
 The bindings between Svelte and Redux are provided by the [svelte-redux](https://github.com/UnwrittenFun/svelte-redux) package.
 
-The bundle is build with [Webpack]() and is configured with hot-reloading.
+The bundle is build with [Webpack](https://webpack.js.org/) and is configured with hot-reloading.
 
 To get started:
   1. Smash the Star button above
