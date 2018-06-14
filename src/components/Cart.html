@@ -24,22 +24,22 @@
 <section>
   <h3>Your Cart</h3>
   <div>
-  {{#if hasProducts}}
-    {{#each products as product}}
+  {#if hasProducts}
+    {#each products as product}
     <Product
-      title={{product.title}}
-      price={{product.price}}
-      quantity={{product.quantity}}
+      title={product.title}
+      price={product.price}
+      quantity={product.quantity}
       location='cart'
     />
-    {{/each}}
-  {{else}}
+    {/each}
+  {else}
     <em>Please add some products to cart.</em>
-  {{/if}}
+  {/if}
   </div>
 
-  <p>Total: &#36;{{total}}</p>
-  <button on:click='fire("checkout")' disabled={{hasProducts ? '' : 'disabled'}}>
+  <p>Total: &#36;{total}</p>
+  <button on:click='fire("checkout")' disabled={disabled}>
     Checkout
   </button>
 </section>
@@ -49,7 +49,8 @@
   export default {
     components: { Product },
     computed: {
-      hasProducts: products => !!products.length,
+      hasProducts: ({ products })    => !!products.length,
+      disabled   : ({ hasProducts }) => hasProducts? '':'disabled',
     },
   }
 </script>

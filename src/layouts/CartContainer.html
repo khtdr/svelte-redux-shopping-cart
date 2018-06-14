@@ -1,5 +1,5 @@
 
-<Cart products={{$products}} total={{$total}} on:checkout='store.checkout()' />
+<Cart products={$products} total={$total} on:checkout='$checkout()' />
 
 <script>
   import { checkout } from '../redux/actions'

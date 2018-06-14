@@ -18,15 +18,13 @@
 
 <div>
   <Product
-    title='{{product.title}}'
-    price='{{product.price}}'
-    quantity='{{product.inventory}}'
+    title='{product.title}'
+    price='{product.price}'
+    quantity='{product.inventory}'
     location='stock'
   />
-  <button
-    on:click='fire("addToCart")'
-    disabled='{{product.inventory > 0 ? "" : "disabled"}}'>
-    {{product.inventory > 0 ? 'Add to cart' : 'Sold Out'}}
+  <button on:click='fire("addToCart")' disabled='{className}'>
+    {label}
   </button>
 </div>
 
@@ -34,5 +32,10 @@
   import Product from './Product.html'
   export default {
     components: { Product },
+    computed: {
+      disabled  :({ product  }) => product.inventory <= 0,
+      className :({ disabled }) => disabled? 'disabled':'',
+      label     :({ disabled }) => disabled? 'Sold Out':'Add to Cart',
+    }
   }
 </script>

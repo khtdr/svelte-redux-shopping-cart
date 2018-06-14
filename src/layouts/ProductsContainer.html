@@ -1,8 +1,8 @@
 
 <ProductsList title="Product Inventory">
-{{#each $products as product }}
-  <ProductItem :product on:addToCart='store.addToCart(product.id)' />
-{{/each}}
+{#each $products as product }
+  <ProductItem :product on:addToCart='$addToCart(product.id)' />
+{/each}
 </ProductsList>
 
 <script>

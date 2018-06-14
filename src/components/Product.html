@@ -9,6 +9,14 @@
 </style>
 
 <div>
-  <strong>{{title}}</strong>
-  &#36;{{price}}{{quantity ? ` x ${quantity} in ${location}` : ''}}
+  <strong>{title}</strong>
+  &#36;{price}{label}
 </div>
+
+<script>
+  export default {
+    computed: {
+      label: ({quantity, location}) => quantity? ` x ${quantity} in ${location}` : ''
+    }
+  }
+</script>
