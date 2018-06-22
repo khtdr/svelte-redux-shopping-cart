@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "decompose",
-  "version": "0.0.1",
+  "name": "svelte-redux-shopping-cart",
+  "version": "2.0.1",
   "devDependencies": {
     "cross-env": "^5.2.0",
     "css-loader": "^0.28.11",
