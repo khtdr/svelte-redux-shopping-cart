@@ -1,3 +1,6 @@
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/khtdr/svelte-redux-shopping-cart.svg)](https://greenkeeper.io/)
+
 ![https://travis-ci.org/khtdr/svelte-redux-shopping-cart](https://img.shields.io/travis/khtdr/svelte-redux-shopping-cart.svg)
 
 This is a port of the [Redux Shopping Cart](https://github.com/reactjs/redux/tree/master/examples/shopping-cart/) example to [Svelte](https://svelte.technology/)
