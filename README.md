@@ -4,11 +4,13 @@
 [![devDependency Status](https://david-dm.org/khtdr/svelte-redux-shopping-cart/master/dev-status.svg)](https://david-dm.org/khtdr/svelte-redux-shopping-cart/master#type=dev)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkhtdr%2Fsvelte-redux-shopping-cart.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkhtdr%2Fsvelte-redux-shopping-cart?ref=badge_shield)
 
+<img align="right" width="500" src="https://raw.githubusercontent.com/khtdr/svelte-redux-shopping-cart/master/sreenshot.png" style="max-width:100%;margin:20px" />
+
 This is a port of the [Redux Shopping Cart](https://github.com/reactjs/redux/tree/master/examples/shopping-cart/) example to [Svelte](https://svelte.technology/).  The bindings between Svelte and Redux are provided by the [svelte-redux](https://github.com/UnwrittenFun/svelte-redux) package.  The bundle is build with [Webpack](https://webpack.js.org/) and is configured with hot-reloading available.
 
-### Getting Started
+<br clear="all" />
 
-<img src="https://raw.githubusercontent.com/khtdr/svelte-redux-shopping-cart/master/sreenshot.png" style="float:left; display:block;max-width:100%;height:auto;width:250px;" />
+### Getting Started
 
   1. Clone the repo
   2. Install dependencies
@@ -19,26 +21,26 @@ git clone git@github.com:khtdr/svelte-redux-shopping-cart.git
 cd ./svelte-redux-shopping-cart && yarn
 yarn start
 ```
-Open: `http://localhost:8080`
+Open: <code>[http://localhost:8080](http://localhost:8080)</code>
 
 :question: If port 8080 is taken, find and change the port number in `package.json`:
 ```
   "start": "http-server public -p 8080 -o"
 ```
 
-![App Screenshot](https://raw.githubusercontent.com/khtdr/svelte-redux-shopping-cart/master/sreenshot.png)
-
 ### Development and Testing
 
-To enable hot-reloading:
+To enable hot-reloading, stop the server and run:
 ```
 yarn run dev
 ```
 
-To enable hot-reloading and open Cypress tests:
+Or to enable hot-reloading and open Cypress tests:
 ```
 yarn run test
 ```
+
+Open your browser to <code>[http://localhost:8080](http://localhost:8080)</code>. Edit source files and the page will update.
 
 #### Source Code Structure
 
