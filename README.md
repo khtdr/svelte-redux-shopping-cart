@@ -8,6 +8,8 @@ This is a port of the [Redux Shopping Cart](https://github.com/reactjs/redux/tre
 
 ### Getting Started
 
+<img src="https://raw.githubusercontent.com/khtdr/svelte-redux-shopping-cart/master/sreenshot.png" style="float:left; display:block;max-width:100%;height:auto;width:250px;" />
+
   1. Clone the repo
   2. Install dependencies
   3. Start the server
