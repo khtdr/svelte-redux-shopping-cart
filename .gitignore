@@ -6,4 +6,6 @@ yarn-errors.log
 cypress/screenshots
 cypress/videos
 cypress/fixtures
+cypress/support
+cypress/plugins
 public/webpack.js
