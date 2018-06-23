@@ -18,6 +18,7 @@
     "cypress:open": "cypress open",
     "build": "cross-env NODE_ENV=production webpack",
     "hot": "webpack-serve --content public --hot",
+    "start": "webpack-serve --content public",
     "dev": "run-p --race hot cypress:open",
     "test": "run-p --race hot cypress:run"
   },
