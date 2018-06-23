@@ -17,10 +17,9 @@
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
     "webpack": "cross-env NODE_ENV=production webpack",
-    "prebuild": "run-s webpack",
-    "build": "mv public/bundle.js public/webpack.js && buble -i public/webpack.js --objectAssign -o public/bundle.js -m inline && rm public/webpack.js",
+    "build": "npm run webpack && mv public/bundle.js public/webpack.js && buble -i public/webpack.js --objectAssign -o public/bundle.js -m inline && rm public/webpack.js",
     "hot": "webpack-serve --content public --hot",
-    "prestart": "run-s build",
+    "prestart": "npm run build",
     "start": "http-server public -p 8080 -c-1 --silent",
     "dev": "run-p --race hot cypress:open",
     "test": "run-p --race start cypress:run"
