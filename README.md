@@ -1,8 +1,4 @@
-![Travis](https://img.shields.io/travis/khtdr/svelte-redux-shopping-cart.svg?style=social)
-
-![bitHound](https://img.shields.io/bithound/dependencies/github/khtdr/svelte-redux-shopping-cart.svg?style=social)
-
-![bitHound](https://img.shields.io/bithound/devDependencies/github/khtdr/svelte-redux-shopping-cart.svg?style=social)
+![Travis](https://img.shields.io/travis/khtdr/svelte-redux-shopping-cart.svg)
 
 This is a port of the [Redux Shopping Cart](https://github.com/reactjs/redux/tree/master/examples/shopping-cart/) example to [Svelte](https://svelte.technology/)
 
