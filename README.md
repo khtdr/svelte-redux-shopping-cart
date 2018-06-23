@@ -40,27 +40,14 @@ yarn run test
 
 #### Source Code Structure
 
-Tests
-cypress/integration/
-
-Server Doc Root
-public/
-
-  - Entry point \
-[src/index.js](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/src/index.js)
-  - Mock API Wrapper
-[src/api](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/src/api)
-  - Components
-
-[src/components/*.html](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/src/components)
-
-Containers
-src/layouts:
-
-Redux Impl.
-src/redux:
-actions
-constants
-reducers
-store.js
-
+* <code>[public/](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/public)</code> Server Doc Root
+* <code>[src/index.js](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/src/index.js)</code> Entry point
+* <code>[src/api/](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/src/api)</code> Mock API Wrapper
+* <code>[src/components/](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/src/components)</code> "Pure" Components
+* <code>[src/layouts/](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/src/layouts)</code> "Container" Components
+* <code>[src/redux/](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/src/redux)</code> Redux Implementation
+    - <code>[src/redux/actions/](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/src/redux/actions)</code>
+    - <code>[src/redux/constants/](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/src/redux/constants)</code>
+    - <code>[src/redux/reducers/](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/src/redux/reducers)</code>
+    - <code>[src/redux/store.js](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/src/redux/store.js)</code>
+* <code>[cypress/integration/](https://github.com/khtdr/svelte-redux-shopping-cart/blob/master/cypress/integration)</code> Cypress.io Tests
