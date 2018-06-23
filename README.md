@@ -4,11 +4,7 @@
 [![devDependency Status](https://david-dm.org/khtdr/svelte-redux-shopping-cart/master/dev-status.svg)](https://david-dm.org/khtdr/svelte-redux-shopping-cart/master#type=dev)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkhtdr%2Fsvelte-redux-shopping-cart.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkhtdr%2Fsvelte-redux-shopping-cart?ref=badge_shield)
 
-This is a port of the [Redux Shopping Cart](https://github.com/reactjs/redux/tree/master/examples/shopping-cart/) example to [Svelte](https://svelte.technology/)
-
-The bindings between Svelte and Redux are provided by the [svelte-redux](https://github.com/UnwrittenFun/svelte-redux) package.
-
-The bundle is build with [Webpack](https://webpack.js.org/) and is configured with hot-reloading.
+This is a port of the [Redux Shopping Cart](https://github.com/reactjs/redux/tree/master/examples/shopping-cart/) example to [Svelte](https://svelte.technology/).  The bindings between Svelte and Redux are provided by the [svelte-redux](https://github.com/UnwrittenFun/svelte-redux) package.  The bundle is build with [Webpack](https://webpack.js.org/) and is configured with hot-reloading.
 
 To get started:
   1. Clone the repo
@@ -20,19 +16,13 @@ git clone git@github.com:khtdr/svelte-redux-shopping-cart.git
 cd ./svelte-redux-shopping-cart && yarn
 yarn start
 ```
-
 Open: `http://localhost:8080`
 
-:question: __Already using port 8080?__
-
-Find and change the port number in `package.json`:
-
+:question: If port 8080 is taken, find and change the port number in `package.json`:
+```
   "start": "http-server public -p 8080 -o"
-
+```
 
 **ScreenShot**
 ![App Screenshot](https://raw.githubusercontent.com/khtdr/svelte-redux-shopping-cart/master/sreenshot.png)
 
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkhtdr%2Fsvelte-redux-shopping-cart.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkhtdr%2Fsvelte-redux-shopping-cart?ref=badge_large)
