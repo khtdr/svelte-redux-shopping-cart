@@ -3,3 +3,6 @@ node_modules
 public/bundle.*
 package-lock.json
 yarn-errors.log
+cypress/screenshots
+cypress/videos
+public/webpack.js
