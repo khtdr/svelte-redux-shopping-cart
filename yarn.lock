@@ -345,8 +345,8 @@ anymatch@^2.0.0:
     normalize-path "^2.1.1"
 
 app-root-path@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/app-root-path/-/app-root-path-2.0.1.tgz#cd62dcf8e4fd5a417efc664d2e5b10653c651b46"
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/app-root-path/-/app-root-path-2.1.0.tgz#98bf6599327ecea199309866e8140368fd2e646a"
 
 aproba@^1.0.3, aproba@^1.1.1:
   version "1.2.0"
@@ -3198,8 +3198,8 @@ node-libs-browser@^2.0.0:
     vm-browserify "0.0.4"
 
 node-pre-gyp@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.10.0.tgz#6e4ef5bb5c5203c6552448828c852c40111aac46"
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.10.1.tgz#d518883e27ebc43161bae86f18400dc2b86b7668"
   dependencies:
     detect-libc "^1.0.2"
     mkdirp "^0.5.1"
@@ -4638,9 +4638,9 @@ svelte-redux@^1.1.1:
   dependencies:
     redux "^3.0.0"
 
-svelte@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-2.8.0.tgz#9a6cbee1b80f6030f24ef0a1cb41ea5dd5e29a4c"
+svelte@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-2.8.1.tgz#190e256dcd621276cc1aa996428d9f667b2c879a"
 
 svgo@^0.7.0:
   version "0.7.2"
