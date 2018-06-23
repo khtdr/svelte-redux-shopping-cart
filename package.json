@@ -20,7 +20,7 @@
     "webpack:build": "cross-env NODE_ENV=production webpack",
     "webpack:hot": "webpack-serve --content public --hot",
     "ci:build": "run-s webpack:build && mv public/bundle.js public/webpack.js && buble -i public/webpack.js --objectAssign -o public/bundle.js -m inline && rm public/webpack.js",
-    "preci:start": "run-p cypress:install ci:build",
+    "preci:start": "run-s ci:build",
     "ci:start": "http-server public -p 8080 -c-1 --silent",
     "ci:test": "run-s cypress:run",
     "dev": "run-s webpack:hot",
