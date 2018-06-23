@@ -1,5 +1,10 @@
 ![Travis](https://img.shields.io/travis/khtdr/svelte-redux-shopping-cart.svg?style=social)
 
+![bitHound](https://img.shields.io/bithound/dependencies/github/rexxars/sse-channel.svg?style=social)
+
+![bitHound](https://img.shields.io/bithound/devDependencies/github/rexxars/sse-channel.svg?style=social)
+
+
 This is a port of the [Redux Shopping Cart](https://github.com/reactjs/redux/tree/master/examples/shopping-cart/) example to [Svelte](https://svelte.technology/)
 
 The bindings between Svelte and Redux are provided by the [svelte-redux](https://github.com/UnwrittenFun/svelte-redux) package.
