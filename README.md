@@ -24,19 +24,24 @@ yarn start
 Open: <code>[http://localhost:8080](http://localhost:8080)</code>
 
 :question: If port 8080 is taken, find and change the port number in `package.json`:
-```
+```json
   "start": "http-server public -p 8080 -o"
+```
+
+If you want to run tests on a different port, fix accordingly:
+```bash
+grep -ir 8080 * | grep -v node_modules
 ```
 
 ### Development and Testing
 
 To enable hot-reloading, stop the server and run:
-```
+```bash
 yarn run dev
 ```
 
 Or to enable hot-reloading and open Cypress tests:
-```
+```bash
 yarn run test
 ```
 
