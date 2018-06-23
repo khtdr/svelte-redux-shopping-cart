@@ -28,7 +28,9 @@
     "ci:start": "http-server public -p 8080 -c-1 --silent",
     "ci:test": "run-s cypress:run",
     "dev": "run-s webpack:hot",
-    "test": "run-p webpack:hot cypress:open"
+    "test": "run-p webpack:hot cypress:open",
+    "prestart": "run-s webpack:build",
+    "start": "http-server public -p 8080 -o"
   },
   "dependencies": {
     "redux": "^4.0.0",

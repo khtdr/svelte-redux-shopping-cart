@@ -11,18 +11,24 @@ The bindings between Svelte and Redux are provided by the [svelte-redux](https:/
 The bundle is build with [Webpack](https://webpack.js.org/) and is configured with hot-reloading.
 
 To get started:
-  1. Smash the Star button above
-  2. Clone the repo
-  3. Install dependencies
-  4. Start the dev server
-  5. Start Hacking
+  1. Clone the repo
+  2. Install dependencies
+  3. Start the server
 
 ```bash
 git clone git@github.com:khtdr/svelte-redux-shopping-cart.git
-cd ./svelte-redux-shopping-cart
-yarn
-yarn run dev
+cd ./svelte-redux-shopping-cart && yarn
+yarn start
 ```
+
+Open: `http://localhost:8080`
+
+:question: __Already using port 8080?__
+
+Find and change the port number in `package.json`:
+
+  "start": "http-server public -p 8080 -o"
+
 
 **ScreenShot**
 ![App Screenshot](https://raw.githubusercontent.com/khtdr/svelte-redux-shopping-cart/master/sreenshot.png)
