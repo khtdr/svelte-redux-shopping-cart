@@ -14,6 +14,7 @@
     "webpack-serve": "^1.0.4"
   },
   "scripts": {
+    "precypress:run": "cypress install",
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
     "webpack": "cross-env NODE_ENV=production webpack",
