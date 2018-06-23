@@ -1,3 +1,4 @@
+![Travis](https://img.shields.io/travis/khtdr/svelte-redux-shopping-cart.svg?style=social)
 
 This is a port of the [Redux Shopping Cart](https://github.com/reactjs/redux/tree/master/examples/shopping-cart/) example to [Svelte](https://svelte.technology/)
 
