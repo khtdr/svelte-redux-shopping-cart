@@ -1,9 +1,8 @@
 {
   "private": true,
   "name": "svelte-redux-shopping-cart",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "devDependencies": {
-    "buble": "^0.19.3",
     "cypress": "^3.0.1",
     "http-server": "^0.11.1",
     "npm-run-all": "^4.1.3",
@@ -23,9 +22,8 @@
     "cypress:open": "cypress open",
     "webpack:build": "cross-env NODE_ENV=production webpack",
     "webpack:hot": "webpack-serve --content public --hot",
-    "ci:build": "run-s webpack:build && mv public/bundle.js public/webpack.js && buble -i public/webpack.js --objectAssign -o public/bundle.js -m inline && rm public/webpack.js",
-    "preci:start": "run-s ci:build",
-    "ci:start": "http-server public -p 8080 -c-1 --silent",
+    "preci:start": "run-s webpack:build",
+    "ci:start": "http-server public -p 8088 -c-1 --silent",
     "ci:test": "run-s cypress:run",
     "dev": "run-s webpack:hot",
     "test": "run-p webpack:hot cypress:open",
