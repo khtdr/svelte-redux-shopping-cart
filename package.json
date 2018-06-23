@@ -19,7 +19,7 @@
   },
   "scripts": {
     "cypress:install": "cypress install",
-    "cypress:run": "cypress run",
+    "cypress:run": "cypress run --browser chrome",
     "cypress:open": "cypress open",
     "webpack:build": "cross-env NODE_ENV=production webpack",
     "webpack:hot": "webpack-serve --content public --hot",
