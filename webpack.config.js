@@ -26,8 +26,7 @@ module.exports = {
           options: {
             emitCss: prod,
             cascade: false,
-            store: true,
-            hotReload: true
+            store: true
           }
         }
       },
@@ -42,7 +41,6 @@ module.exports = {
   },
   mode,
   plugins: [
-    !prod && new webpack.HotModuleReplacementPlugin(),
     new MiniCssExtractPlugin({
       filename: '[name].css'
     })

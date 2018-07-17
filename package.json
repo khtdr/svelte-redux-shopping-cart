@@ -21,7 +21,7 @@
     "cypress:run": "cypress run --browser chrome",
     "cypress:open": "cypress open",
     "webpack:build": "cross-env NODE_ENV=production webpack",
-    "webpack:hot": "webpack-serve --content public --hot",
+    "webpack:hot": "webpack-serve --content public ",
     "preci:start": "run-s webpack:build",
     "ci:start": "http-server public -p 8080 -c-1 --silent",
     "ci:test": "run-s cypress:run",
