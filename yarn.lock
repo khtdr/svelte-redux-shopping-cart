@@ -4196,9 +4196,9 @@ svelte-dev-helper@^1.1.7:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/svelte-dev-helper/-/svelte-dev-helper-1.1.7.tgz#b7d887c7be5abf7e2436f9467560061b1e2a935f"
 
-svelte-loader@2.9.1:
-  version "2.9.1"
-  resolved "https://registry.yarnpkg.com/svelte-loader/-/svelte-loader-2.9.1.tgz#e493c51ac6c2fe53867b1512abf46eb991ca3205"
+svelte-loader@2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/svelte-loader/-/svelte-loader-2.10.0.tgz#604ee0942df686d55a1d03f3f5351cad90595a59"
   dependencies:
     loader-utils "^1.1.0"
     svelte-dev-helper "^1.1.7"
