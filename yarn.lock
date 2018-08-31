@@ -3739,6 +3739,10 @@ require-main-filename@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-1.0.1.tgz#97f717b69d48784f5f526a6c5aa8ffdda055a4d1"
 
+require-relative@^0.8.7:
+  version "0.8.7"
+  resolved "https://registry.yarnpkg.com/require-relative/-/require-relative-0.8.7.tgz#7999539fc9e047a37928fa196f8e1563dabd36de"
+
 requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
@@ -4192,16 +4196,17 @@ supports-color@^5.3.0, supports-color@^5.4.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte-dev-helper@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/svelte-dev-helper/-/svelte-dev-helper-1.1.7.tgz#b7d887c7be5abf7e2436f9467560061b1e2a935f"
+svelte-dev-helper@^1.1.9:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/svelte-dev-helper/-/svelte-dev-helper-1.1.9.tgz#7d187db5c6cdbbd64d75a32f91b8998bde3273c3"
 
-svelte-loader@2.10.1:
-  version "2.10.1"
-  resolved "https://registry.yarnpkg.com/svelte-loader/-/svelte-loader-2.10.1.tgz#c8ad7a8a46a3e4f7130354af7af5d16d5b972925"
+svelte-loader@2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/svelte-loader/-/svelte-loader-2.11.0.tgz#f97b30763a67a12186838f6282553060f1726240"
   dependencies:
     loader-utils "^1.1.0"
-    svelte-dev-helper "^1.1.7"
+    require-relative "^0.8.7"
+    svelte-dev-helper "^1.1.9"
 
 svelte-redux@^1.1.1:
   version "1.1.1"
