@@ -4928,9 +4928,9 @@ svelte-redux@^1.1.1:
     redux "^3.0.0"
 
 svelte@^2.15.0:
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-2.15.0.tgz#27b27b033abcba97f4392ff04faa707b1345b6da"
-  integrity sha512-rSrDbOftOHfPN8Epy8FHFUfr7L1WaZZBUC1UloNNH7+S7QHPyvbQw1KdrhtVYSuOslpjHe20xgTDR/tZn/sDMg==
+  version "2.15.3"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-2.15.3.tgz#d9ba5b48eae30f5501b3266c563add2399c67b40"
+  integrity sha512-0bKpXppM/YlPZ8F0mREaUYpE8Te11RvG62ttFr+n1U3G2qdr3cZzuXCnQMcVZukwAUJAjRM55OSH7FLmXnPGRA==
 
 symbol-observable@1.0.1:
   version "1.0.1"
