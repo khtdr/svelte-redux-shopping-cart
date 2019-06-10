@@ -37,6 +37,7 @@
     "svelte-redux": "^1.1.1"
   },
   "peerDependencies": {
+    "ecstatic": "^3.3.2",
     "lodash.camelcase": "^4.3.0"
   }
 }
