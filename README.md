@@ -1,3 +1,11 @@
+> Current Svelte is `@v3`, but this example repo uses `Svelte@v2`
+
+**You, yes you, should fork this repo, upgrade the Svelte dependendies to `v3`,
+and submit a PR!**
+
+<br clear="all" />
+<br clear="all" />
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/khtdr/svelte-redux-shopping-cart.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/khtdr/svelte-redux-shopping-cart.svg?branch=master)](https://travis-ci.org/khtdr/svelte-redux-shopping-cart)
 [![Dependency Status](https://david-dm.org/khtdr/svelte-redux-shopping-cart/master.svg)](https://david-dm.org/khtdr/svelte-redux-shopping-cart/master)
