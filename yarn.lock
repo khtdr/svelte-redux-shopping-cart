@@ -4512,10 +4512,10 @@ svelte-redux@^1.1.1:
   dependencies:
     redux "^3.0.0"
 
-svelte@^2.16.1:
-  version "2.16.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-2.16.1.tgz#559a68452029e72280311ccc8dfd2ff10d0a5f18"
-  integrity sha512-TpXdfukSkmWkMnH6PPVm7FRW8SSFcTyqBiP+6VN8rtZJ7Lp1Xbf/e3oz73eQBxF0UPZw1aAn1b91lX2XTeD3zg==
+svelte@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.6.0.tgz#a65e4c087d0ceb96acb1b0d641971fc841c6c88c"
+  integrity sha512-0CzBzqJ7ZNWHuR8b7iIpybnCARVQMB0WstnGiHDEDtzO9VKsvtY/0eIpylwz0S+mhf/F9msYOSho3XaXeowSOQ==
 
 symbol-observable@1.0.1:
   version "1.0.1"
