@@ -14,7 +14,7 @@
     "svelte-loader": "^2.13.3",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.0",
-    "webpack-serve": "^3.1.0"
+    "webpack-serve": "^3.2.0"
   },
   "scripts": {
     "cypress:install": "cypress install",
